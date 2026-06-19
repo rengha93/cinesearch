@@ -1,6 +1,8 @@
 # CineSearch
 
-A movie search app built with Next.js 15 and the TMDB API.
+A movie search app built with Next.js 16 and the TMDB API.
+
+![cinesearch homepage](public/cinesearch_home.png)
 
 ## Features
 
@@ -11,9 +13,9 @@ A movie search app built with Next.js 15 and the TMDB API.
 
 ## Tech Stack
 
-- Next.js 16
+- Next.js 16 (App Router)
 - TypeScript
-- Tailwind CSS
+- Tailwind CSS v4
 - TMDB API
 
 ## Getting Started
@@ -24,7 +26,7 @@ A movie search app built with Next.js 15 and the TMDB API.
 2. Install dependencies
    npm install
 
-3. Create a .env.local file in the root and add your TMDB token
+3. Create a .env.local file in the root
    TMDB_READ_ACCESS_TOKEN=your_token_here
 
 4. Run the development server
@@ -41,3 +43,7 @@ app/
   page.tsx         → Home page
 lib/
   tmdb.ts          → TMDB API functions
+
+## Live Demo
+
+https://cinesearch-nine.vercel.app
