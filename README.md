@@ -2,7 +2,7 @@
 
 A movie search app built with Next.js 16 and the TMDB API.
 
-![cinesearch homepage](public/cinesearch_home.png)
+![cinesearch homepage](public/cinesearch.png)
 
 ## Features
 
